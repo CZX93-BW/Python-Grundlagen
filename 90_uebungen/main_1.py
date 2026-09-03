@@ -19,10 +19,11 @@ def delete_note():
 
 
 def update_note():
-    pass
+    notes[0]["title"] = "Geändert"
+    notes[0]["text"] = "Notiz wurde geändert"
 
 
 add_note()
 delete_note()
-# update_note()
+update_note()
 show_notes()
