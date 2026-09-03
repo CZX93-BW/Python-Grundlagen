@@ -10,7 +10,10 @@ def show_notes():
 
 
 def add_note():
-    new_note = {"title": "Schule", "text": "Hausaufgaben machen"}
+    title = input("Titel: ")
+    text = input("Text: ")
+
+    new_note = {"title": title, "text": text}
     notes.append(new_note)
 
 
@@ -24,6 +27,6 @@ def update_note():
 
 
 add_note()
-delete_note()
-update_note()
+# delete_note()
+# update_note()
 show_notes()
