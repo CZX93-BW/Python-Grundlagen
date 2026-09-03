@@ -15,7 +15,7 @@ def add_note():
 
 
 def delete_note():
-    pass
+    notes.pop(0)
 
 
 def update_note():
@@ -23,6 +23,6 @@ def update_note():
 
 
 add_note()
-# delete_note()
+delete_note()
 # update_note()
 show_notes()
