@@ -1,3 +1,6 @@
+﻿
+========== .gitignore ==========
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -218,7 +221,59 @@ __marimo__/
 .streamlit/secrets.toml
 
 
+========== 90_uebungen\main_1.py ==========
 
-# Local generated artifacts
-80_praxis/notizen/data/
-*.tmp
+notes = [
+    {"title": "Einkauf", "text": "Milch, Brot, Eier"},
+    {"title": "Arbeit", "text": "Backendcall um 11"},
+]
+
+
+def show_notes():
+    for note in notes:
+        print(f"Title: {note['title']}, Text: {note['text']}")
+
+
+def add_note():
+    title = input("Titel: ")
+    text = input("Text: ")
+
+    new_note = {"title": title, "text": text}
+    notes.append(new_note)
+
+
+def delete_note():
+    notes.pop(0)
+
+
+def update_note():
+    notes[0]["title"] = "Geändert"
+    notes[0]["text"] = "Notiz wurde geändert"
+
+
+add_note()
+# delete_note()
+# update_note()
+show_notes()
+
+========== README.md ==========
+
+# Python Grundlagen
+
+Meine persönliche Übungs- und Codebibliothek zum Lernen und Vertiefen von Python.
+
+Dieses Repository begleitet mich langfristig beim Erlernen von Python. Hier sammle ich Grundlagen, Übungen, kleine Beispiele, Experimente und später auch eigene Projekte.
+
+## Inhalt
+
+- Python Grundlagen
+- Übungen und praktische Beispiele
+- Kleine Code-Snippets
+- Eigene Projekte
+- Notizen und Experimente
+
+Die Struktur und der Inhalt des Repositorys werden im Laufe des Lernprozesses weiterentwickelt.
+
+## Ziel
+
+Python Schritt für Schritt lernen, Wissen festigen und eine persönliche Referenz- und Codebibliothek aufbauen.

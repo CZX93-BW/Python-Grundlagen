@@ -1,0 +1,452 @@
+[
+  {
+    "path": "beispiele/01_variablen_typen/fall_01.py",
+    "stdin": "",
+    "stdout": "Basti\n32\nTrue\nint\n"
+  },
+  {
+    "path": "beispiele/01_variablen_typen/fall_02.py",
+    "stdin": "",
+    "stdout": "5\n5 Artikel\nTrue\n"
+  },
+  {
+    "path": "beispiele/01_variablen_typen/fall_03.py",
+    "stdin": "",
+    "stdout": "20 10\n"
+  },
+  {
+    "path": "beispiele/02_zahlen_operatoren/fall_01.py",
+    "stdin": "",
+    "stdout": "9 5 14\n3.5\n3\n1\n8\n-4\n"
+  },
+  {
+    "path": "beispiele/02_zahlen_operatoren/fall_02.py",
+    "stdin": "",
+    "stdout": "0.30000000000000004\nFalse\nTrue\n0.30\n2 4\n"
+  },
+  {
+    "path": "beispiele/02_zahlen_operatoren/fall_03.py",
+    "stdin": "",
+    "stdout": "59.97\n2.35\n"
+  },
+  {
+    "path": "beispiele/03_strings/fall_01.py",
+    "stdin": "",
+    "stdout": "Straße\nTrue\nFalse\n"
+  },
+  {
+    "path": "beispiele/03_strings/fall_02.py",
+    "stdin": "",
+    "stdout": "['Apfel', 'Birne', 'Kiwi']\nApfel | Birne | Kiwi\nApfel,Birne,Mango\nTrue\n"
+  },
+  {
+    "path": "beispiele/03_strings/fall_03.py",
+    "stdin": "",
+    "stdout": "P n\nyth\nnohtyP\nPython: 12.50 EUR\n-1\n"
+  },
+  {
+    "path": "beispiele/04_bool_none/fall_01.py",
+    "stdin": "",
+    "stdout": "True\nFalse\nTrue\n"
+  },
+  {
+    "path": "beispiele/04_bool_none/fall_02.py",
+    "stdin": "",
+    "stdout": "False\nFalse\nTrue\nTrue\n"
+  },
+  {
+    "path": "beispiele/04_bool_none/fall_03.py",
+    "stdin": "",
+    "stdout": "10\n0\nUnbekannt\n"
+  },
+  {
+    "path": "beispiele/05_eingaben/fall_01.py",
+    "stdin": " Basti \n",
+    "stdout": "Name: Hallo Basti!\n"
+  },
+  {
+    "path": "beispiele/05_eingaben/fall_02.py",
+    "stdin": "abc\n",
+    "stdout": "Alter: Bitte eine ganze Zahl eingeben.\n"
+  },
+  {
+    "path": "beispiele/05_eingaben/fall_03.py",
+    "stdin": "abc\n0\n3\n",
+    "stdout": "Menge oder q: Keine ganze Zahl.\nMenge oder q: Die Menge muss positiv sein.\nMenge oder q: Menge: 3\n"
+  },
+  {
+    "path": "beispiele/06_bedingungen/fall_01.py",
+    "stdin": "",
+    "stdout": "Bestanden\n"
+  },
+  {
+    "path": "beispiele/06_bedingungen/fall_02.py",
+    "stdin": "",
+    "stdout": "Offline\n"
+  },
+  {
+    "path": "beispiele/06_bedingungen/fall_03.py",
+    "stdin": "",
+    "stdout": "Einträge anzeigen\n"
+  },
+  {
+    "path": "beispiele/07_schleifen/fall_01.py",
+    "stdin": "",
+    "stdout": "1 Apfel\n2 Birne\n3 Kiwi\n[2, 4, 6]\n"
+  },
+  {
+    "path": "beispiele/07_schleifen/fall_02.py",
+    "stdin": "",
+    "stdout": "1\n3\n"
+  },
+  {
+    "path": "beispiele/07_schleifen/fall_03.py",
+    "stdin": "",
+    "stdout": "Keine gerade Zahl gefunden\nAda 9\nBasti 8\n"
+  },
+  {
+    "path": "beispiele/08_listen/fall_01.py",
+    "stdin": "",
+    "stdout": "['Vollkornbrot', 'Kaffee', 'Milch', 'Eier', 'Apfel', 'Tee']\n['Vollkornbrot', 'Kaffee']\n"
+  },
+  {
+    "path": "beispiele/08_listen/fall_02.py",
+    "stdin": "",
+    "stdout": "Brot\n['Milch', 'Eier']\n['Milch']\n"
+  },
+  {
+    "path": "beispiele/08_listen/fall_03.py",
+    "stdin": "",
+    "stdout": "True\n0\n[1, 2, 5, 5]\n[5, 2, 5, 1]\n[5, 5, 2, 1]\nNone\n"
+  },
+  {
+    "path": "beispiele/09_tupel_sets/fall_01.py",
+    "stdin": "",
+    "stdout": "10 20\n(10,)\n1 [2, 3] 4\n"
+  },
+  {
+    "path": "beispiele/09_tupel_sets/fall_02.py",
+    "stdin": "",
+    "stdout": "['HTML', 'Python']\n['Python']\n['HTML', 'Python', 'SQL']\n['HTML']\n"
+  },
+  {
+    "path": "beispiele/09_tupel_sets/fall_03.py",
+    "stdin": "",
+    "stdout": "[3, 5]\nTrue\n"
+  },
+  {
+    "path": "beispiele/10_dictionaries/fall_01.py",
+    "stdin": "",
+    "stdout": "Basti\nNicht hinterlegt\n{'name': 'Basti', 'age': 33, 'city': 'Bottrop', 'active': True}\n"
+  },
+  {
+    "path": "beispiele/10_dictionaries/fall_02.py",
+    "stdin": "",
+    "stdout": "name: Ada\nactive: True\nTrue\n['name', 'active']\n['Ada', True]\n"
+  },
+  {
+    "path": "beispiele/10_dictionaries/fall_03.py",
+    "stdin": "",
+    "stdout": "None\nde\nNone\n{'language': 'de'}\n"
+  },
+  {
+    "path": "beispiele/11_verschachteln_kopieren/fall_01.py",
+    "stdin": "",
+    "stdout": "Wocheneinkauf\nArbeit\n"
+  },
+  {
+    "path": "beispiele/11_verschachteln_kopieren/fall_02.py",
+    "stdin": "",
+    "stdout": "2 1\nGeändert\nTrue\n"
+  },
+  {
+    "path": "beispiele/11_verschachteln_kopieren/fall_03.py",
+    "stdin": "",
+    "stdout": "[{'title': 'Alt'}]\n[{'title': 'Neu'}]\n[[1, 0], [0, 0]]\n"
+  },
+  {
+    "path": "beispiele/12_funktionen/fall_01.py",
+    "stdin": "",
+    "stdout": "12\n10\n"
+  },
+  {
+    "path": "beispiele/12_funktionen/fall_02.py",
+    "stdin": "",
+    "stdout": "Gesamt: 15\nNone\n35\n"
+  },
+  {
+    "path": "beispiele/12_funktionen/fall_03.py",
+    "stdin": "",
+    "stdout": "Name fehlt\n2 9\nNone\n"
+  },
+  {
+    "path": "beispiele/13_parameter_scope/fall_01.py",
+    "stdin": "",
+    "stdout": "Hallo Basti\nGuten Morgen Ada\n"
+  },
+  {
+    "path": "beispiele/13_parameter_scope/fall_02.py",
+    "stdin": "",
+    "stdout": "['Python']\n['SQL']\n['HTML', 'CSS']\n['HTML', 'CSS']\n"
+  },
+  {
+    "path": "beispiele/13_parameter_scope/fall_03.py",
+    "stdin": "",
+    "stdout": "9\nname=Ada, role=Developer\nInnen Außen\n"
+  },
+  {
+    "path": "beispiele/14_comprehensions_sortieren/fall_01.py",
+    "stdin": "",
+    "stdout": "[4, 16]\n[4, 16]\n"
+  },
+  {
+    "path": "beispiele/14_comprehensions_sortieren/fall_02.py",
+    "stdin": "",
+    "stdout": "['Mira', 'Ada', 'Basti']\n['apfel', 'Banane']\n"
+  },
+  {
+    "path": "beispiele/14_comprehensions_sortieren/fall_03.py",
+    "stdin": "",
+    "stdout": "{1: 1, 2: 4, 3: 9}\n6\nTrue\nTrue\nFalse True\n0\n"
+  },
+  {
+    "path": "beispiele/15_module/fall_01.py",
+    "stdin": "",
+    "stdout": "4.0\n4\n"
+  },
+  {
+    "path": "beispiele/15_module/fall_02.py",
+    "stdin": "",
+    "stdout": "Hallo Basti\n"
+  },
+  {
+    "path": "beispiele/15_module/fall_03.py",
+    "stdin": "",
+    "stdout": "Hallo Ada\n"
+  },
+  {
+    "path": "beispiele/16_fehler/fall_01.py",
+    "stdin": "",
+    "stdout": "24\nVersuch abgeschlossen\nUngültige Zahl: abc\nVersuch abgeschlossen\n"
+  },
+  {
+    "path": "beispiele/16_fehler/fall_02.py",
+    "stdin": "",
+    "stdout": "count darf nicht 0 sein\n"
+  },
+  {
+    "path": "beispiele/16_fehler/fall_03.py",
+    "stdin": "",
+    "stdout": "Port muss eine ganze Zahl sein\nValueError\n"
+  },
+  {
+    "path": "beispiele/17_dateien_pfade/fall_01.py",
+    "stdin": "",
+    "stdout": "Grüße aus Python\nnotiz.txt .txt\n"
+  },
+  {
+    "path": "beispiele/17_dateien_pfade/fall_02.py",
+    "stdin": "",
+    "stdout": "Start\nFertig\n"
+  },
+  {
+    "path": "beispiele/17_dateien_pfade/fall_03.py",
+    "stdin": "",
+    "stdout": "['a.txt']\nDatei fehlt\n"
+  },
+  {
+    "path": "beispiele/18_json_csv/fall_01.py",
+    "stdin": "",
+    "stdout": "{\"active\": true, \"name\": \"Jörg\", \"phone\": null}\nJörg\nTrue\n"
+  },
+  {
+    "path": "beispiele/18_json_csv/fall_02.py",
+    "stdin": "",
+    "stdout": "Einkauf\n"
+  },
+  {
+    "path": "beispiele/18_json_csv/fall_03.py",
+    "stdin": "",
+    "stdout": "Tee; grün\n3\n"
+  },
+  {
+    "path": "beispiele/19_datum_zufall/fall_01.py",
+    "stdin": "",
+    "stdout": "2026-10-02\n7\n02.10.2026\n"
+  },
+  {
+    "path": "beispiele/19_datum_zufall/fall_02.py",
+    "stdin": "",
+    "stdout": "2026-09-25T12:00:00+00:00\n2026-09-25T14:00:00+02:00\n"
+  },
+  {
+    "path": "beispiele/19_datum_zufall/fall_03.py",
+    "stdin": "",
+    "stdout": "[6, 1, 1]\nTrue\nApfel\n"
+  },
+  {
+    "path": "beispiele/20_standardhelfer/fall_01.py",
+    "stdin": "",
+    "stdout": "2 0\n{'A': ['Ada', 'Anna'], 'B': ['Basti']}\n"
+  },
+  {
+    "path": "beispiele/20_standardhelfer/fall_02.py",
+    "stdin": "",
+    "stdout": "Auftrag A\n['Auftrag B', 'Auftrag C']\n"
+  },
+  {
+    "path": "beispiele/20_standardhelfer/fall_03.py",
+    "stdin": "",
+    "stdout": "True\nFalse\n['12', '3']\n"
+  },
+  {
+    "path": "beispiele/21_klassen/fall_01.py",
+    "stdin": "",
+    "stdout": "Einkauf: Milch\nWochenende: Milch\n"
+  },
+  {
+    "path": "beispiele/21_klassen/fall_02.py",
+    "stdin": "",
+    "stdout": "['Python lernen']\n[]\n"
+  },
+  {
+    "path": "beispiele/21_klassen/fall_03.py",
+    "stdin": "",
+    "stdout": "12\n15\n"
+  },
+  {
+    "path": "beispiele/22_dataclasses_komposition/fall_01.py",
+    "stdin": "",
+    "stdout": "Task(title='Python', tags=['Lernen'])\n[]\n"
+  },
+  {
+    "path": "beispiele/22_dataclasses_komposition/fall_02.py",
+    "stdin": "",
+    "stdout": "Hallo Basti\n"
+  },
+  {
+    "path": "beispiele/22_dataclasses_komposition/fall_03.py",
+    "stdin": "",
+    "stdout": "Bericht für eine Woche\n"
+  },
+  {
+    "path": "beispiele/23_typen_dokumentation/fall_01.py",
+    "stdin": "",
+    "stdout": "3.0\nNone\n"
+  },
+  {
+    "path": "beispiele/23_typen_dokumentation/fall_02.py",
+    "stdin": "",
+    "stdout": "Python: Üben\n"
+  },
+  {
+    "path": "beispiele/23_typen_dokumentation/fall_03.py",
+    "stdin": "",
+    "stdout": "120\n"
+  },
+  {
+    "path": "beispiele/24_tests_logging/fall_01.py",
+    "stdin": "",
+    "stdout": "2 True\n"
+  },
+  {
+    "path": "beispiele/24_tests_logging/fall_02.py",
+    "stdin": "",
+    "stdout": "INFO: Verarbeitung gestartet\nWARNING: Ein Datensatz wurde übersprungen\n"
+  },
+  {
+    "path": "beispiele/24_tests_logging/fall_03.py",
+    "stdin": "",
+    "stdout": "5.0\nEingabe quantity=0: quantity muss positiv sein\n"
+  },
+  {
+    "path": "beispiele/25_iteratoren_generatoren/fall_01.py",
+    "stdin": "",
+    "stdout": "A\nB\nEnde\n"
+  },
+  {
+    "path": "beispiele/25_iteratoren_generatoren/fall_02.py",
+    "stdin": "",
+    "stdout": "3\n[2, 1]\n[]\n"
+  },
+  {
+    "path": "beispiele/25_iteratoren_generatoren/fall_03.py",
+    "stdin": "",
+    "stdout": "30\n[]\n"
+  },
+  {
+    "path": "beispiele/26_decorators_kontext/fall_01.py",
+    "stdin": "",
+    "stdout": "8\n"
+  },
+  {
+    "path": "beispiele/26_decorators_kontext/fall_02.py",
+    "stdin": "",
+    "stdout": "Aufruf beginnt\nHallo Ada\ngreet\n"
+  },
+  {
+    "path": "beispiele/26_decorators_kontext/fall_03.py",
+    "stdin": "",
+    "stdout": "Start\nArbeitsbereich\nAbschluss\n"
+  },
+  {
+    "path": "beispiele/27_sqlite/fall_01.py",
+    "stdin": "",
+    "stdout": "[(1, 'Ada')]\n"
+  },
+  {
+    "path": "beispiele/27_sqlite/fall_02.py",
+    "stdin": "",
+    "stdout": "('Neu',)\n1\n0\n"
+  },
+  {
+    "path": "beispiele/27_sqlite/fall_03.py",
+    "stdin": "",
+    "stdout": "Doppelter Wert: Transaktion zurückgenommen\n0\n"
+  },
+  {
+    "path": "beispiele/28_cli_http_config/fall_01.py",
+    "stdin": "",
+    "stdout": "Hallo Basti\nHallo Basti\n"
+  },
+  {
+    "path": "beispiele/28_cli_http_config/fall_02.py",
+    "stdin": "",
+    "stdout": "False 8000\n"
+  },
+  {
+    "path": "beispiele/28_cli_http_config/fall_03.py",
+    "stdin": "",
+    "stdout": "Python lernen\n"
+  },
+  {
+    "path": "beispiele/29_async_laufzeit/fall_01.py",
+    "stdin": "",
+    "stdout": "Hallo aus async\n"
+  },
+  {
+    "path": "beispiele/29_async_laufzeit/fall_02.py",
+    "stdin": "",
+    "stdout": "['EINS', 'ZWEI']\n"
+  },
+  {
+    "path": "beispiele/29_async_laufzeit/fall_03.py",
+    "stdin": "",
+    "stdout": "4999950000\nTrue\n"
+  },
+  {
+    "path": "beispiele/30_notizen_crud/fall_01.py",
+    "stdin": "",
+    "stdout": "{'id': 'n1', 'title': 'Einkauf', 'text': 'Milch'}\n"
+  },
+  {
+    "path": "beispiele/30_notizen_crud/fall_02.py",
+    "stdin": "",
+    "stdout": "{'id': 'n1', 'title': 'Einkauf'}\nNone\n"
+  },
+  {
+    "path": "beispiele/30_notizen_crud/fall_03.py",
+    "stdin": "",
+    "stdout": "{'id': 'n1', 'title': 'Einkauf'}\n[]\nNotiz fehlt\n"
+  }
+]
